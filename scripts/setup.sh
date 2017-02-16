@@ -16,5 +16,6 @@ sed -e "s/<PROJECT>/${PROJECT}/" \
     -e "s/<ZONE>/${ZONE}/" \
     <./scripts/set-env.tmpl >./scripts/set-env.sh
 
+. scripts/set-env.sh
 cd dataflow
 mvn compile
