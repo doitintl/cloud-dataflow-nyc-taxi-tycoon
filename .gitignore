@@ -5,3 +5,4 @@ dataflow/.classpath
 dataflow/.project
 dataflow/.settings
 dataflow/target
+scripts/set-env.sh
